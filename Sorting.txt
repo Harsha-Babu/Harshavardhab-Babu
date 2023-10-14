@@ -1,0 +1,5 @@
+const numbers = [4, 2, 9, 5, 1];
+
+numbers.sort((a, b) => b - a);
+
+console.log(numbers); // Output: [9, 5, 4, 2, 1]  
